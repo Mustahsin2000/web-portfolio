@@ -1,0 +1,22 @@
+section{
+  background-color:black;
+}
+.header .header-left h1{
+  font-family: cursive;
+  color: white;
+}
+.header .header-left h1 span{
+  color: blue;
+}
+.header .header-left h3{
+  color: wheat;
+}
+.header .header-left p{
+  color: white;
+}
+.header-left{
+  width: 50%;
+  float: left;
+  margin: 5%;
+  padding: 2%;
+}
