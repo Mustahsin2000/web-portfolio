@@ -1,12 +1,20 @@
-section{
-  background-color:black;
+*{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.first{
+  background-image: url("images/HvIEnr.webp");
+  background-size: 100% 100%;
 }
 .header .header-left h1{
   font-family: cursive;
   color: white;
 }
 .header .header-left h1 span{
-  color: blue;
+  color:crimson;
 }
 .header .header-left h3{
   color: wheat;
@@ -20,3 +28,46 @@ section{
   margin: 5%;
   padding: 2%;
 }
+.header .header-left a{
+  text-decoration: none;
+  padding: 10px 15px;
+  background-color: #2196f3;
+  box-shadow: 0 0 10px #2196f3 , 0 0 40px #2196f3,0 0 10px #2196f3;
+  border-radius: 5px;
+  font-size: 15px;
+  color: white;
+}
+.about-left{
+  width: 40%;
+  float: left;
+  margin: 5px;
+}
+.about-left img{
+  height: 80%;
+  width: 80%;
+}
+.about-right h1{
+  color: gray;
+}
+.about{
+  margin-top: 100px;
+}
+.about-right{
+  width: 50%;
+  float: left;
+  margin-left: 50px;
+}
+.about-right a{
+  text-decoration: none;
+  padding: 10px 15px;
+  background-color: #2196f3;
+  box-shadow: 0 0 10px #2196f3 , 0 0 40px #2196f3,0 0 10px #2196f3;
+  border-radius: 5px;
+  font-size: 15px;
+  color: white;
+  margin-top: 10px;
+}
+.second{
+  font-family: font-family: 'Poppins', sans-serif;;
+}
+
